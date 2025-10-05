@@ -1,0 +1,95 @@
+body{
+  background-color: #B98EE1
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.add-todo{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.input-add{
+  height: 50px;
+}
+
+.add-button{
+  width: 55px;
+  background-color: #B98EE1;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    background: white;
+    position: relative;
+    background-color: #E18EE0;
+}
+
+.todo li {
+    flex: 1;
+    margin: 0 10px;
+    list-style: none;
+    text-align: left;
+}
+
+.completed-text {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-button {
+    background: #E18EB6;
+    color: black;
+    border-color: #B98EE1;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input-add{
+  background-color: #B98EE1;
+  color: black;
+  
+}
+
+input::placeholder{
+  color:black;
+}
+
+.filters{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.filter-btn{
+  width: auto;
+  background-color: #B98EE1; 
+  width: 150px;
+  height: 50px;
+}
+
+.clear-completed{
+  display: flex;
+  justify-content:center;
+}
+
+.clear-completed-btn{
+  width: auto;
+  background-color: #B98EE1;  
+  width: 150px;
+  height: 50px;
+}
+
+.stats{
+  display: flex;
+  justify-content: center;
+}
