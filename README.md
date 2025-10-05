@@ -3,7 +3,8 @@
 
 # Быстрый старт
 ## Клонируйте репозиторий
-
+git clone https://github.com/ust-Eseniya/Todo-List.git
+cd todo-list
 ## Установите зависимости
 npm install
 ## Запустите приложение
